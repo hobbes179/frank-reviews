@@ -1,5 +1,51 @@
+/*-----------------------------------COLORS-----------------------------------*/
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  --color1: #A9B0B7;
+  --color2: #FFFFFF;
+  --color3: #AC2B37;
+  --color4: #000000;
+
+
+  --color10: #4BA1FF;   /* Link blue (non-palette) */
+}
+
+/*----------------------------------INITIAL-----------------------------------*/
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  max-width: 1820px;
+  margin: 0 auto;
+  background-color: var(--color1);
+}
+
+.main-content {
+  position: relative;
+  top: 4rem; /* To offset for fixed header. */
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+}
+
+svg {
+  fill: var(--color2);
+  color: var(--color2);
 }
